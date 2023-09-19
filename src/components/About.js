@@ -10,3 +10,19 @@ const About = () => {
     navigate("/support");
   }
 
+
+  return (
+    <div>
+        <div>
+          This is About Page
+        </div>
+        
+        <div>
+          <button onClick={clickHandler}>Move to Support Page</button>
+        </div>
+
+    </div>
+  )
+}
+
+export default About
