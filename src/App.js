@@ -12,3 +12,23 @@ import { Link } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
+
+    <nav>
+
+      <ul>
+
+        <li>
+          <NavLink to="/">Home</NavLink>
+        </li>
+        <li>
+          <NavLink to="/support">Support</NavLink>
+        </li>
+        <li>
+          <NavLink to="/about">About</NavLink>
+        </li>
+        <li>
+          <NavLink to="/labs">Labs</NavLink>
+        </li>
+
+      </ul>
+    </nav>
